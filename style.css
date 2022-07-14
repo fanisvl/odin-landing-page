@@ -1,9 +1,19 @@
+body {
+    margin: 0px;
+}
+
 .header {
     display: flex;
-    border: 1px solid red;
+    justify-content: space-between;
     background-color: #1F2937;
     color: white;
     padding: 16px;
+}
+
+.right {
+    display: flex;
+    gap: 16px;
+    border: 1px solid red;  
 }
 
 a {
