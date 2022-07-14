@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -8,12 +9,25 @@ body {
     background-color: #1F2937;
     color: white;
     padding: 16px;
+    gap: 90px;
+
 }
 
-.right {
+.logo {
+    font-size: 35px;
+    margin-left: 50px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.links {
     display: flex;
-    gap: 16px;
-    border: 1px solid red;  
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+    margin-right: 100px;
+    font-weight: 300;
+    font-style: italic;
 }
 
 a {
