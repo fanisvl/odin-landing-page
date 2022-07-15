@@ -43,17 +43,18 @@ a {
     background-color: #1F2937;
     padding: 50px;
     color: white;
-    border: 1px solid red;
 }
 
-.main-r {
-    width: 500px;
-    height: auto;
-    border: 1px solid red;
+.main-img {
+    height: 400px;
+    width: auto;
+    border-radius: 15px;
 }
 
 .main-l {
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 50px;
 }
 
@@ -67,5 +68,20 @@ a {
     font-size: 20px;
     color: #E5E7EB;
     font-style: italic;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.signup {
+    background-color: #3882F6;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0px;
+    font-weight: 800;
+}
+
+.signup:hover {
+    background-color: #1F2937;
+    border: 1px solid #3882F6;
 }
