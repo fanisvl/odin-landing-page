@@ -48,7 +48,8 @@ a {
 .main-img {
     height: 400px;
     width: auto;
-    border-radius: 15px;
+    border-radius: 30px;
+
 }
 
 .main-l {
@@ -85,3 +86,37 @@ a {
     background-color: #3882F6;
 }
 
+.info-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    padding: 50px;
+
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    width: 350px;
+
+}
+
+.card-img {
+    width: 100px;
+    height: auto;
+}
+
+.card-txt {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+}
