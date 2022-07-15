@@ -3,6 +3,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -30,7 +36,36 @@ body {
     font-style: italic;
 }
 
-a {
-    text-decoration: none;
+.main {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: #1F2937;
+    padding: 50px;
     color: white;
+    border: 1px solid red;
+}
+
+.main-r {
+    width: 500px;
+    height: auto;
+    border: 1px solid red;
+}
+
+.main-l {
+    border: 1px solid red;
+    padding: 50px;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 800;
+
+}
+
+.sub-hero {
+    font-size: 20px;
+    color: #E5E7EB;
+    font-style: italic;
+    margin-bottom: 20px;
 }
