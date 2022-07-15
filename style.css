@@ -72,16 +72,15 @@ a {
 }
 
 .signup {
-    background-color: #3882F6;
+    background-color: #1F2937;
+    border: 1px solid #3882F6;
     color: white;
     width: 200px;
     height: 40px;
     border-radius: 20px;
-    border: 0px;
     font-weight: 800;
 }
 
 .signup:hover {
-    background-color: #1F2937;
-    border: 1px solid #3882F6;
+    background-color: #3882F6;
 }
