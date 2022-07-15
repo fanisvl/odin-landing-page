@@ -61,7 +61,7 @@ a {
 
 .hero {
     display: flex;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 800;
     background-color: #ffffff;
     background-image: linear-gradient(45deg, #00e5ff, #ad73f8);
