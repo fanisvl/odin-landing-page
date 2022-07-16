@@ -39,17 +39,18 @@ a {
 .main {
     display: flex;
     justify-content: center;
-    gap: 70px;
+    align-items: center;
+    gap: 10px;
     background-color: #1F2937;
     padding: 50px;
     color: white;
+    height: 70vh;
 }
 
 .main-img {
     height: 400px;
     width: auto;
-    border-radius: 30px;
-
+    border-radius: 30px; 
 }
 
 .main-l {
@@ -61,7 +62,7 @@ a {
 
 .hero {
     display: flex;
-    font-size: 4.5rem;
+    font-size: 8vh;
     font-weight: 800;
     background-color: #ffffff;
     background-image: linear-gradient(45deg, #00e5ff, #ad73f8);
